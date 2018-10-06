@@ -1,0 +1,11 @@
+{
+    "condiments":
+      {
+        "Ranch": "0.15",
+        "Mayo": "0.15",
+        "Mustard": "0.10",
+        "Thousand Island Dressing": "0.23",
+        "Hot Sauce": "0.35",
+        "Olive oil": "1.00"
+    }
+  }

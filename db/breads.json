@@ -1,0 +1,11 @@
+{
+  "breads":
+    {
+      "Wheat": "1.00",
+      "Sourdough": "1.25",
+      "Pompernickel": "1.05",
+      "Rye": "1.50",
+      "Italian": "1.25",
+      "Brioche": "1.35"
+  }
+}
