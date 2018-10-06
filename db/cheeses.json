@@ -1,0 +1,11 @@
+{
+    "cheeses":
+      {
+        "American": "1.00",
+        "Swiss": "1.25",
+        "Provolone": "1.05",
+        "Muenster": "1.50",
+        "Mozzerella": "1.25",
+        "Havarti": "1.20"
+    }
+  }

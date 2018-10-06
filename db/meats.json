@@ -1,0 +1,11 @@
+{
+    "meats":
+      {
+        "Turkey": "1.10",
+        "Ham": "1.25",
+        "Pastrami": "2.45",
+        "Salami": "1.50",
+        "Italian": "1.25",
+        "No Meat": "0.00"
+    }
+  }

@@ -1,0 +1,11 @@
+{
+    "veggies":
+      {
+        "Lettuce": "0.25",
+        "Pickles": "0.35",
+        "Tomatoes": "0.40",
+        "Cucumbers": "0.23",
+        "Spinach": "0.55",
+        "Jalapenos": "0.35"
+    }
+  }
