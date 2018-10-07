@@ -1,8 +1,8 @@
 console.log('cominatcha from util.js');
 
-const printToDom = (stringToPrint, divId) => {
-    selectedDiv = document.getElementById(divId);
-    selectedDiv.innerHTML = stringToPrint;
-  };
+const printToDom = (stringToPrint) => {
+  const printHere = document.getElementById('printStuffHere');
+  printHere.innerHTML = stringToPrint;
+}
 
   export { printToDom }

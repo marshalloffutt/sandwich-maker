@@ -1,11 +1,11 @@
 {
     "cheeses":
       {
-        "American": "1.00",
-        "Swiss": "1.25",
-        "Provolone": "1.05",
-        "Muenster": "1.50",
-        "Mozzerella": "1.25",
+        "Camembert": "1.00",
+        "Machego": "1.25",
+        "Roquefort": "1.05",
+        "Gruyere": "1.50",
+        "Tomme dechevre de pays": "1.25",
         "Havarti": "1.20"
     }
   }

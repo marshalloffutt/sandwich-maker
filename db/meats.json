@@ -1,11 +1,11 @@
 {
     "meats":
       {
-        "Turkey": "1.10",
-        "Ham": "1.25",
-        "Pastrami": "2.45",
-        "Salami": "1.50",
-        "Italian": "1.25",
-        "No Meat": "0.00"
+        "Tempeh": "1.10",
+        "Shark": "1.25",
+        "Tofu": "2.45",
+        "Black bean pattie": "1.50",
+        "Chickpea meat": "1.25",
+        "No meat": "0.00"
     }
   }
