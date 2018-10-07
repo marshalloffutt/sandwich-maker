@@ -1,11 +1,11 @@
 {
     "meats":
       {
-        "Tempeh": "1.10",
+        "Peacock": "1.10",
         "Shark": "1.25",
-        "Tofu": "2.45",
-        "Black bean pattie": "1.50",
-        "Chickpea meat": "1.25",
-        "No meat": "0.00"
+        "Duck": "2.45",
+        "Bear": "1.50",
+        "Goat": "1.25",
+        "Vegetarian": "0.00"
     }
   }

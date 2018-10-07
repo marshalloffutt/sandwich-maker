@@ -7,11 +7,9 @@ const pageLoad = () => {
     domString += `<hr class="my-4">`;
     domString += `<p>Are you ready?</p>`;
     domString += `<p class="lead">`;
-      domString += `<button class="btn btn-primary btn-lg" role="button" id="start">Let's get started!</button>`;
+      domString += `<button class="btn btn-primary btn-lg" role="button" id="toBread">Let's get started!</button>`;
     domString += `</p>`;
     printToDom(domString);
 };
-
-// Add a button event that will tie id "start" with bread-selection builder on bread.js
 
 export {pageLoad};

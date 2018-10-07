@@ -1,4 +1,4 @@
-import { printToDom } from "../helpers/util";
+import { printToDom } from "../helpers/util.js";
 
 console.log('mmmmm bread');
 
@@ -12,13 +12,15 @@ const getBreadz = () => {
     return breads;
 };
 
-const breadSelect = (breadArray) => {
+const breadSelect = () => {
+    console.log(breads);
     let domString = '';
     domString += `<h1 class="display-4">Select your bread</h1>`;
-    breadArray.forEach((bread) => {
-        domString += `<button class="btn btn-success btn-lg" role="button" id="${bread.name}">${bread.name}</button>`;
-    });
+    // breadArray.forEach(() => {
+    //     domString += `<button class="btn btn-success btn-lg" role="button" id="${bread.name}">${bread.name}</button>`;
+    // });
+    domString += `<button class="btn btn-primary btn-lg" role="button" id="toMeat">Continue</button>`;
     printToDom(domString);
 };
 
-export { setBreads, getBreads, breadSelect };
+export { setBreads, getBreadz, breadSelect };
