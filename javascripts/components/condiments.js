@@ -1,1 +1,1 @@
-console.log('no ketchup');
+console.log('no ketchup plz');
