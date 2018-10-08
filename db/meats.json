@@ -1,11 +1,11 @@
 {
     "meats":
       {
-        "Peacock": "1.10",
-        "Shark": "1.25",
-        "Duck": "2.45",
-        "Bear": "1.50",
-        "Goat": "1.25",
-        "Vegetarian": "0.00"
+        "Turkey": "1.10",
+        "Ham": "1.25",
+        "Pastrami": "2.45",
+        "Smoked Salmon": "1.50",
+        "Tuna": "1.25",
+        "None": "0.00"
     }
   }
