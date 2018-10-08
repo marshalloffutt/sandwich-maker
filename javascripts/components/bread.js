@@ -11,15 +11,13 @@ const getBreadz = () => {
 };
 
 const breadSelect = () => {
-    console.log(Object.keys(breads)); //HAHA This works!!!!!
+    let breadTypes = Object.keys(breads);
     let domString = '';
-    breads.forEach((key) => {
-        domString += `<p>${Object.keys(breads)}</p>`;
+    domString += `<h4 class="mb-2 pl-1 pr-1 bg-success text-white">BREAD</h4>`
+    breadTypes.forEach((bread) => {
+        domString += `<label class="col-md-4 checkbox-inline"><input type="checkbox" id="add${bread}" value="">  ${bread}</label>`;
     })
-    printToDom(domString, 'breadSection');
-    // breadsArray.forEach((bread) => {
-    //     console.log(bread[i])
-    // })
+    printToDom(domString, 'breadSection')
 };
 
 export { setBreads, getBreadz, breadSelect };

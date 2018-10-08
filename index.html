@@ -9,16 +9,18 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-
-    <div class="container">
-        <h2 class="header">Sandwich Maker</h2>
-        <div class="border-success" id="breadSection"></div>
-        <div class="border-success" id="meatSection"></div>
-        <div class="border-success" id="cheeseSection"></div>
-        <div class="border-success" id="veggiesSection"></div>
-        <div class="border-success" id="condimentsSection"></div>
-    </div>
-    <div id="finalSandwich"></div>
+    <h2 class="text-center header">Sandwich Order Form</h2>
+    <form>
+        <div id="breadSection" class="container"></div>
+        <div id="meatSection" class="container"></div>
+        <div id="cheeseSection" class="container"></div>
+        <div id="veggiesSection" class="container"></div>
+        <div id="condimentsSection" class="container"></div>
+        <div class="container d-flex justify-content-center p-4">
+            <button class="btn btn-warning text-white" type="submit">Make My Sandwich</button>
+        </div>
+    </form>
+    <div id="finalSandwich" class="container"></div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
