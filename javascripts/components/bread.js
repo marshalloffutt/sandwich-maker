@@ -1,7 +1,5 @@
 import { printToDom } from "../helpers/util.js";
 
-console.log('mmmmm bread');
-
 let breads = [];
 
 const setBreads = (newArray) => {
@@ -13,14 +11,15 @@ const getBreadz = () => {
 };
 
 const breadSelect = () => {
-    console.log(breads);
+    console.log(Object.keys(breads)); //HAHA This works!!!!!
     let domString = '';
-    domString += `<h1 class="display-4">Select your bread</h1>`;
-    // breadArray.forEach(() => {
-    //     domString += `<button class="btn btn-success btn-lg" role="button" id="${bread.name}">${bread.name}</button>`;
-    // });
-    domString += `<button class="btn btn-primary btn-lg" role="button" id="toMeat">Continue</button>`;
-    printToDom(domString);
+    breads.forEach((key) => {
+        domString += `<p>${Object.keys(breads)}</p>`;
+    })
+    printToDom(domString, 'breadSection');
+    // breadsArray.forEach((bread) => {
+    //     console.log(bread[i])
+    // })
 };
 
 export { setBreads, getBreadz, breadSelect };
