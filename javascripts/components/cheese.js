@@ -15,9 +15,12 @@ const cheeseSelect = () => {
     let domString = '';
     domString += `<h4 class="mb-2 pl-1 pr-1 bg-success text-white">CHEESE</h4>`
     cheeseTypes.forEach((cheese) => {
-        domString += `<label class="col-md-4 checkbox-inline"><input type="checkbox" id="add${cheese}" value="">  ${cheese}</label>`;
+        domString += `<div class="form-check form-check-inline col-md-3">
+                        <input class="ingredient form-check-input" type="checkbox" id="add${cheese}" value="option1">
+                        <label class="form-check-label" for="add${cheese}">${cheese}</label>
+                     </div>`;
     })
     printToDom(domString, 'cheeseSection')
 };
 
-export { setCheeses, getCheezez, cheeseSelect };
+export { setCheeses, getCheezez, cheeseSelect, cheeses };
