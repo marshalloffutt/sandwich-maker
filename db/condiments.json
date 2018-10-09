@@ -1,11 +1,11 @@
 {
     "condiments":
       {
-        "Feta spread": "0.15",
-        "Piri Piri Sauce": "0.15",
-        "Truffle oil": "0.23",
+        "Mayo": "0.15",
+        "Mustard": "0.15",
+        "Ketchup": "0.23",
         "Harissa": "0.35",
-        "Yuzu Kosho": "1.00",
-        "Plain ass sandwich": "0.00"
+        "Sriracha": "1.00",
+        "None": "0.00"
     }
   }
