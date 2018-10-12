@@ -1,12 +1,12 @@
 {
     "veggies":
       {
-        "Garlic": "0.25",
-        "Kohlrabi": "0.35",
-        "Asparagus": "0.40",
-        "Jicama": "0.23",
-        "Chayote": "0.55",
-        "Lenongrass": "0.35",
-        "None": "0.00"
+        "Garlic": 0.25,
+        "Kohlrabi": 0.35,
+        "Asparagus": 0.40,
+        "Jicama": 0.23,
+        "Chayote": 0.55,
+        "Lenongrass": 0.35,
+        "None": 0.00
     }
   }
