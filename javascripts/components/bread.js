@@ -24,16 +24,15 @@ const breadSelect = () => {
 };
 
 const checkBread = () => {
-    // const breadz = Object.keys(breads); // This is an array of the keys of breads.
-    let theBreadChoices = document.getElementsByClassName("breadIngredient"); // Here I am making an object of all breadIngredient checkboxes
+    const theBreadChoices = document.getElementsByClassName("breadIngredient");
     for (let i = 0; i < theBreadChoices.length; i++) {
         if (theBreadChoices[i].checked == true) {
-            // console.log(theBreadChoices[i]);
-            let selectedBread = theBreadChoices[i].value.join;
-            // console.log(selectedBread);
-            const filteredBreads = selectedBread.filter((x) => x.selectedBread === Object.keys(breads));
-            printToDom(filteredBreads, 'finalSandwich');
-        }
+            const selectedBreads = theBreadChoices[i].value.split(' ');
+            const filteredBreads = selectedBreads.find((x) => x.selectedBreads === Object.keys(breads));            
+        };
+
+            // 
+            // printToDom(filteredBreads, 'finalSandwich');
     };
 };
 
