@@ -30,9 +30,6 @@ const checkBread = () => {
             const selectedBreads = theBreadChoices[i].value.split(' ');
             const filteredBreads = selectedBreads.find((x) => x.selectedBreads === Object.keys(breads));            
         };
-
-            // 
-            // printToDom(filteredBreads, 'finalSandwich');
     };
 };
 
