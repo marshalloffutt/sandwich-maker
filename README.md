@@ -19,6 +19,6 @@ A simple sandwich builder form
 3. This will show at: `http://localhost:8080` in your internet browser.  
 4. Print out sandwich form on letter-size paper.
 5. Using a pen, check which ingredients you want.
-6. Hand sandwich form to employee behind counter.
+6. Hand the filled out sandwich form to employee behind counter.
 7. Your sandwich will be ready in about 5 minutes.
 ```
