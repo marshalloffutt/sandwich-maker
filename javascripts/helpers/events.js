@@ -4,6 +4,7 @@ const buttonEventStuff = () => {
     const submitButton = document.getElementById('submitBtn');
     submitButton.addEventListener("click", (event) => {
         event.preventDefault();
+        document.getElementById('cart').style.display = "block";
         checkBread();
     });
 };
