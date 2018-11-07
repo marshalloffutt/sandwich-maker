@@ -28,7 +28,8 @@ const checkBread = () => {
     for (let i = 0; i < theBreadChoices.length; i++) {
         if (theBreadChoices[i].checked == true) {
             const selectedBreads = theBreadChoices[i].value.split(' ');
-            const filteredBreads = selectedBreads.find((x) => x.selectedBreads === Object.keys(breads));            
+            const filteredBreads = selectedBreads.find((x) => x.selectedBreads === Object.keys(breads));       
+            console.log(filteredBreads);
         };
     };
 };
