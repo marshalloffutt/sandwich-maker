@@ -1,11 +1,11 @@
 {
-    "cheeses":
-      {
-        "Camembert": 1.00,
-        "Machego": 1.25,
-        "Roquefort": 1.05,
-        "Gruyere": 1.50,
-        "Cheddar": 1.25,
-        "None": 0.00
+  "cheeses":
+    {
+      "Camembert": 1.00,
+      "Machego": 1.25,
+      "Roquefort": 1.05,
+      "Gruyere": 1.50,
+      "Cheddar": 1.25,
+      "None": 0.00
     }
   }
