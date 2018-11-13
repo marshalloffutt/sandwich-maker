@@ -1,4 +1,5 @@
 import { checkBread } from "../components/bread.js";
+import { checkCheese } from "../components/cheese.js";
 
 const buttonEventStuff = () => {
     const submitButton = document.getElementById('submitBtn');
@@ -6,6 +7,7 @@ const buttonEventStuff = () => {
         event.preventDefault();
         document.getElementById('cart').style.display = "block";
         checkBread();
+        checkCheese();
     });
 };
 

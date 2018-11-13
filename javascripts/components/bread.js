@@ -24,13 +24,21 @@ const breadSelect = () => {
 };
 
 const checkBread = () => {
-    const theBreadChoices = document.getElementsByClassName("breadIngredient");
-    for (let i = 0; i < theBreadChoices.length; i++) {
-        if (theBreadChoices[i].checked == true) {
-            const selectedBreads = theBreadChoices[i].value.split(' ');
-            const filteredBreads = selectedBreads.find((x) => x.selectedBreads === Object.keys(breads));       
-            console.log(filteredBreads);
+    const breadCheckBoxes = document.getElementsByClassName("breadIngredient");
+    let value = 0;
+    let domString = '';
+    for (let i = 0; i < breadCheckBoxes.length; i++) {
+        if (breadCheckBoxes[i].checked == true) {
+            const selectedBread = breadCheckBoxes[i].value;
+            const keys = Object.keys(breads);
+            keys.forEach((key) => {
+                if (key === selectedBread) {
+                    value = breads[key];
+                };
+            })
+            domString += `<p>${breadCheckBoxes[i].value} - $${value}</p>`;
         };
+        printToDom(domString, 'finalBread');
     };
 };
 
