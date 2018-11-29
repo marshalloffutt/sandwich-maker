@@ -36,10 +36,12 @@ const checkCondiments = () => {
                     value = condiments[key];
                 };
             })
-            domString += `<p>${condimentsCheckBoxes[i].value} - $${value}</p>`;
+            domString += `<p>${condimentsCheckBoxes[i].value} - $<span class="condimentsamt">${value}</span></p>`;
         };
         printToDom(domString, 'finalCondiments');
     };
 };
+
+
 
 export { setCondiments, getCondimentz, condimentSelect, condiments, checkCondiments };
