@@ -3,6 +3,7 @@ import { checkCheese } from "../components/cheese.js";
 import { checkCondiments } from "../components/condiments.js";
 import { checkMeat } from "../components/meat.js";
 import { checkVeggies } from "../components/veggies.js";
+import { doTheMath } from "../components/math.js";
 
 const buttonEventStuff = () => {
     const submitButton = document.getElementById('submitBtn');
@@ -14,6 +15,7 @@ const buttonEventStuff = () => {
         checkCondiments();
         checkMeat();
         checkVeggies();
+        doTheMath();
     });
 };
 

@@ -17,7 +17,7 @@ const breadSelect = () => {
     breadTypes.forEach((bread) => {
         domString += `<div class="form-check form-check-inline col-md-3">
                         <input class="breadIngredient form-check-input" type="checkbox" id="add${bread}" value="${bread}">
-                        <label class="form-check-label" for="add${bread}">${bread}</label>
+                    <label class="form-check-label" for="add${bread}">${bread}</label>
                      </div>`;
     });
     printToDom(domString, 'breadSection')
@@ -36,7 +36,7 @@ const checkBread = () => {
                     value = breads[key];
                 };
             })
-            domString += `<p>${breadCheckBoxes[i].value} - $${value}</p>`;
+            domString += `<p>${breadCheckBoxes[i].value} - $<span class="breadamt">${value}</span></p>`;
         };
         printToDom(domString, 'finalBread');
     };

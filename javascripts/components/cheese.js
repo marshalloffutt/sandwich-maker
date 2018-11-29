@@ -36,10 +36,12 @@ const checkCheese = () => {
                     value = cheeses[key];
                 };
             })
-            domString += `<p>${cheeseCheckBoxes[i].value} - $${value}</p>`;
+            domString += `<p>${cheeseCheckBoxes[i].value} - $<span class="cheeseamt">${value}</span></p>`;
         };
         printToDom(domString, 'finalCheese');
     };
 };
+
+
 
 export { setCheeses, getCheezez, cheeseSelect, cheeses, checkCheese };

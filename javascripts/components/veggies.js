@@ -36,7 +36,7 @@ const checkVeggies = () => {
                     value = veggies[key];
                 };
             })
-            domString += `<p>${veggiesCheckBoxes[i].value} - $${value}</p>`;
+            domString += `<p>${veggiesCheckBoxes[i].value} - $<span class="veggiesamt">${value}</span></p>`;
         };
         printToDom(domString, 'finalVeggies');
     };
